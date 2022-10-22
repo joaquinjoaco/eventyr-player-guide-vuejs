@@ -1,0 +1,175 @@
+h1 {
+  color: var(--primary);
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+h2 {
+  color: var(--primary);
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  /* min-height: 100vh; */
+  text-align: left;
+  margin: 0 auto;
+  max-width: 100%;
+  scroll-padding-top: 2rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+section .content {
+  max-width: 95%;
+}
+
+.guide-p,
+.content li {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.list-container {
+  margin-top: 2.6rem;
+  margin-bottom: 2.6rem;
+}
+
+.content ul {
+  list-style: square inside;
+}
+
+.content ul li {
+  margin-top: 0.55rem;
+}
+
+.content ul.nested {
+  margin-left: 2rem;
+  list-style: circle inside;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.guide-image {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.guide-image.mcmmo {
+  display: none;
+}
+
+.link {
+  font-weight: 800;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  color: var(--primary);
+}
+
+.link-container {
+  margin-top: 5rem;
+}
+
+/* Small tablets */
+@media screen and (min-width: 700px) {
+  section .content {
+    max-width: 80%;
+  }
+
+  h1 {
+    font-size: 2.45rem;
+  }
+
+  h2 {
+    font-size: 1.55rem;
+  }
+
+  .guide-p,
+  .content li {
+    font-size: 1.35rem;
+  }
+
+  .link {
+    font-size: 1.5rem;
+  }
+}
+
+/* Decently sized tablets */
+
+@media screen and (min-width: 900px) {
+  section .content {
+    max-width: 80%;
+  }
+
+  h1 {
+    font-size: 3.15rem;
+  }
+
+  h2 {
+    font-size: 2.15rem;
+  }
+
+  .guide-p,
+  .content li {
+    font-size: 1.55rem;
+  }
+
+  .guide-image.mcmmo {
+    display: block;
+  }
+
+  .link {
+    font-size: 1.8rem;
+  }
+}
+
+/* Laptops */
+@media screen and (min-width: 1200px) {
+  section .content {
+    max-width: 80%;
+    padding-left: 20vw;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .guide-p,
+  .content li {
+    font-size: 1.05rem;
+  }
+
+  .link {
+    font-size: 1.25rem;
+  }
+}
+
+/* Bigger screens */
+@media screen and (min-width: 1500px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .guide-p,
+  .content li {
+    font-size: 1.05rem;
+  }
+
+  .link {
+    font-size: 1.25rem;
+  }
+}

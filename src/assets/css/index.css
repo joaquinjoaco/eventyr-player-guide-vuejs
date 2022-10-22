@@ -1,0 +1,233 @@
+.hidden {
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.show {
+  transform: translateX(0);
+  transition-delay: 200ms;
+}
+.hero-p.desktop {
+  display: none;
+}
+
+header {
+  padding-bottom: 10vh;
+}
+.presentation {
+  min-height: 100vh;
+}
+
+.eventyr-logo {
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  display: block;
+  padding-top: 12vh;
+  width: 75%;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary);
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.hero-p {
+  display: block;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--primary);
+  background-color: var(--tertiary);
+  /* animation: fade 1.8s linear infinite; */
+  border-radius: 0px 0px 5px 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* guide sections */
+
+h1 {
+  color: var(--primary);
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.index-section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.index-section .content-home {
+  max-width: 95%;
+}
+
+.index-section.about-home {
+  background-color: var(--secondary);
+}
+.index-section.undefined {
+  background-color: var(--secondary);
+}
+
+.guide-home {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.about-button {
+  font-weight: 800;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: var(--primary);
+  background-color: var(--tertiary);
+}
+
+.rules-link {
+  text-decoration: underline;
+  font-size: 1.45rem;
+  font-weight: 300;
+  color: var(--primary);
+}
+
+.spacer {
+  margin-inline: auto;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* Small tablets */
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 2.55rem;
+  }
+
+  .hero-p,
+  .guide-home {
+    font-size: 1.55rem;
+  }
+
+  .index-section .content-home {
+    max-width: 80%;
+  }
+
+  .about-button {
+    font-size: 1.55rem;
+  }
+
+  .rules-link {
+    font-size: 1.55rem;
+  }
+}
+
+/* Decently sized tablets */
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  .hero-p,
+  .guide-home {
+    font-size: 1.95rem;
+  }
+
+  .index-section .content-home {
+    max-width: 80%;
+  }
+
+  .about-button {
+    font-size: 1.95rem;
+  }
+
+  .rules-link {
+    font-size: 1.95rem;
+  }
+}
+
+/* Laptops */
+@media screen and (min-width: 1200px) {
+  .presentation,
+  .content-home {
+    padding-left: 20vw;
+  }
+
+  .rules-link,
+  .about-button {
+    margin-left: 20vw;
+  }
+
+  .eventyr-logo {
+    width: 30%;
+  }
+
+  .hero {
+    width: 50%;
+  }
+
+  .hero-p {
+    display: none;
+  }
+
+  .hero-p.desktop {
+    display: block;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .guide-home {
+    font-size: 1.3rem;
+  }
+
+  .index-section .content-home {
+    max-width: 80%;
+  }
+
+  .about-button {
+    font-size: 1.55rem;
+  }
+
+  .rules-link {
+    font-size: 1.55rem;
+  }
+}
+
+/* Bigger screens */
+@media screen and (min-width: 1500px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .guide-home {
+    font-size: 1.3rem;
+  }
+
+  .index-section .content-home {
+    max-width: 80%;
+  }
+
+  .about-button {
+    font-size: 1.55rem;
+  }
+
+  .rules-link {
+    font-size: 1.55rem;
+  }
+}
