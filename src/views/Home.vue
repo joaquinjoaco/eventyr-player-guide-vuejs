@@ -2,7 +2,7 @@
   <div class="presentation">
     <img class="eventyr-logo" src="../assets/images/logogoodQ.png" alt="Eventyr logo" />
     <div class="hero">
-      <h1>Guía del aventurero</h1>
+      <h1>Guía del TEST</h1>
       <a href="#about-home">
         <p class="hero-p">Desliza hacia arriba 👆</p>
         <p class="hero-p desktop">👇</p>
@@ -24,7 +24,7 @@
           en actualizarnos para siempre estar al tanto con las últimas características del juego.</i>
       </p>
     </div>
-    <router-link :to="{name: 'Eventyr'}" class="about-button">Ver más 👀</router-link>
+    <router-link :to="{ name: 'Eventyr' }" class="about-button">Ver más 👀</router-link>
   </section>
 
   <img class="spacer" src="../assets/images/layer2.svg" alt="" />
