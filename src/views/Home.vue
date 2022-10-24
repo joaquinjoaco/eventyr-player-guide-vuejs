@@ -2,7 +2,7 @@
   <div class="presentation">
     <img class="eventyr-logo" src="../assets/images/logogoodQ.png" alt="Eventyr logo" />
     <div class="hero">
-      <h1>Guía del TEST</h1>
+      <h1>Guía del aventurero</h1>
       <a href="#about-home">
         <p class="hero-p">Desliza hacia arriba 👆</p>
         <p class="hero-p desktop">👇</p>
@@ -34,11 +34,12 @@
       <h1>/reglas</h1>
       <p class="guide-home">Para que todos tengamos una grata experiencia: <br /><br /></p>
     </div>
-    <a href="/pages/ruleseventyr.html" class="rules-link">Te invitamos a leer las reglas 👋</a>
+    <router-link :to="{ name: 'Reglas' }" class="rules-link">Te invitamos a leer las reglas 👋</router-link>
   </section>
 
 </template>
 
 <style>
 @import '../assets/css/index.css';
+@import '../assets/css/guide.css';
 </style>

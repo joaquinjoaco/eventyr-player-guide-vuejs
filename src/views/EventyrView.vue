@@ -53,12 +53,8 @@
                          servidor.</li>
                </ul>
                <div class="link-container">
-                    <a href="/pages/ruleseventyr.html" class="link">Siguiente - Reglas 👀</a>
+                    <router-link :to="{ name: 'Reglas' }" class="link">Siguiente - Reglas 👀</router-link>
                </div>
           </div>
      </section>
 </template>
-
-<style>
-@import '../assets/css/guide.css';
-</style>
