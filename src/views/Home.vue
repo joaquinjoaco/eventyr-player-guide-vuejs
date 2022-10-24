@@ -1,6 +1,6 @@
 <template>
   <div class="presentation">
-    <img class="eventyr-logo" src="../assets/images/logogoodQ.png" alt="Eventyr logo" />
+    <img class="eventyr-logo" src="/images/logogoodQ.png" alt="Eventyr logo" />
     <div class="hero">
       <h1>Guía del aventurero</h1>
       <a href="#about-home">
@@ -10,7 +10,7 @@
     </div>
   </div>
 
-  <img class="spacer" src="../assets/images/layer1.svg" alt="" />
+  <img class="spacer" src="/images/layer1.svg" alt="" />
   <!-- about -->
   <section class="index-section about-home" id="about-home">
     <div class="content-home">
@@ -27,7 +27,7 @@
     <router-link :to="{ name: 'Eventyr' }" class="about-button">Ver más 👀</router-link>
   </section>
 
-  <img class="spacer" src="../assets/images/layer2.svg" alt="" />
+  <img class="spacer" src="/images/layer2.svg" alt="" />
   <!-- rules -->
   <section class="index-section rules">
     <div class="content-home">

@@ -6,7 +6,7 @@
                     habilidades asociadas a armas, herramientas y otros, creando nuevas y mejores formas de generar
                     recursos y una mayor profundidad mecánicas al sistema PvP.</p>
                <div class="image-container">
-                    <img class="guide-image mcmmo" src="../assets/images/mcmmo.png" alt="Habilidades" />
+                    <img class="guide-image mcmmo" src="/images/mcmmo.png" alt="Habilidades" />
                </div>
 
                <p class="guide-p">

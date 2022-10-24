@@ -15,8 +15,7 @@
                     intercambiados por distintos minerales:
                </p>
                <div class="image-container">
-                    <img class="guide-image" src="../assets/images/Capture.jpg"
-                         alt="Tradeos de protecciones en Eventyr" />
+                    <img class="guide-image" src="/images/Capture.jpg" alt="Tradeos de protecciones en Eventyr" />
                </div>
 
                <p class="guide-p">Ocasionalmente pueden ser adquiridos de otros jugadores directamente por dinero u
