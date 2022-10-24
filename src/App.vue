@@ -46,4 +46,9 @@ document.onclick = function (clickEvent) {
 
 <style>
 @import './assets/css/nav.css';
+
+
+#menu a.router-link-exact-active {
+  color: #79e051;
+}
 </style>
