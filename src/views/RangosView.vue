@@ -19,7 +19,7 @@
 
                     <br />
                     Para mayor información visitar
-                    <a href="https://tienda.eventyrmc.net">https://tienda.eventyrmc.net </a>
+                    <a href="https://tienda.eventyrmc.net">nuestra tienda.</a>
                </p>
                <br />
                <ul>
